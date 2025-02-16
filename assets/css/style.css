@@ -2,10 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Raleway:wght@100..900&family=Roboto:ital@0;1&display=swap');
 
-body {
-    font-family: "Raleway", sans-serif;
+/* CSS Variables */
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
 }
 
-h1 {
-    font-family: "Roboto", sans-serif;
+/* Global styles */
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
 }
