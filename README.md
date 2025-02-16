@@ -1,5 +1,15 @@
-# S-and-S-care-mp1
 # S&S Care
+## Planning Stage
+###
+### User Stories
+1. As an elderly person, I want to be able to easily find information about the types of care services provided, so I can understand if the company meets my needs.
+2. As a new site user, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration.
+3. As an elderly client, I want a straightforward way to request a callback from the care team, so I can ask questions or get more information at a convenient time.
+4.  As an elderly person, I want to easily find contact information like phone numbers and email addresses, so I can quickly reach out for assistance when needed.
+5. As a family member, I want to see pictures of the caregivers in action, so I can visualise the care environment and interactions.
+6. As a family member, I want to be able to see testimonials from other families so that I trust the care provided for my loved one.
+7. As a new customer, I want to know what locations these services are offered in, so I don’t waste time enquiring if it’s not in my area.
+8. As an elderly client, I want to see what kinds of social activities or companionship services are available, so I can stay engaged and avoid feeling lonely.
 ## Features
 ### Existing Features
 ### Features Left to Implement
