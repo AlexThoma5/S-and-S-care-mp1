@@ -30,4 +30,13 @@ h3 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-} 
+}
+
+/* Footer */
+
+#footer i {
+    font-size: 140%;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
