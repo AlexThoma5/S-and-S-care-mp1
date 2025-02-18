@@ -20,16 +20,16 @@ h3 {
     font-family: var(--secondary-font);
 }
 
-/* Grid visualisation CSS for testing */
+/* Header */
 
- .container,
-.row {
-    border: 2px solid black;
+header {
+    background: url(/assets/images/hero-image.jpeg) no-repeat center center / cover;
+    min-height: 30vh;
 }
 
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
+#hero h1, p {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
 }
 
 /* Footer */
@@ -39,4 +39,16 @@ h3 {
     color: black;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+/* Grid visualisation CSS for testing */
+/*
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }
