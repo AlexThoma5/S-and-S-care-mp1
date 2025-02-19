@@ -7,6 +7,7 @@
     --primary-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
     --primary-color: #2a2d3c;
+    --hightlight-color: #1099d7;
 }
 
 /* Global styles */
@@ -14,12 +15,31 @@
 body {
     font-family: var(--primary-font);
     padding-top: 59px;
+    background-color: #f7f7f7;
 }
 
 h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    text-decoration: 2px underline #c0c0c0;
+    text-underline-offset: .5rem;
+}
+
+.section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card-heading-color {
+    color: var(--hightlight-color);
 }
 
 /* Navbar */
@@ -41,10 +61,16 @@ header {
     min-height: 30vh;
 }
 
-#hero h1, p {
+#hero h1,
+#hero p {
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
 }
+
+/* Main */
+
+/* About us section */
+
 
 /* Footer */
 
@@ -55,14 +81,3 @@ header {
     padding-bottom: 1rem;
 }
 
-/* Grid visualisation CSS for testing */
-/*
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
