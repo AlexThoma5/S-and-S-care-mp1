@@ -74,9 +74,13 @@ header {
 
 /* Footer */
 
+#footer {
+    background-color: var(--primary-color);
+}
+
 #footer i {
     font-size: 140%;
-    color: black;
+    color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
