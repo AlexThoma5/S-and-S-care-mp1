@@ -81,3 +81,57 @@ header {
     padding-bottom: 1rem;
 }
 
+/* Media queries */
+
+/* Small devices for (phone 320px and up) */
+
+/* Medium devices for (tablets 768px and up) */
+
+@media screen and (min-width: 768px) {
+    /* Make top two about-us cards the same height for consistency */
+    #about-us .card-body {
+        min-height: 385px;
+    }
+    /* Remove excess space from map-card */
+    #about-us #map-card {
+        min-height: auto;
+    }
+}
+
+/* large devices for (small laptops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+    /* Make all about-us cards the same height for consistency */
+    #about-us .card-body {
+        min-height: 312px;
+    }         
+}
+
+/* xl devices for (large desktops, 1200px and up) */
+
+@media screen and (min-width: 1200px) {
+    /* Make all about-us cards the same height for consistency */
+    #about-us .card-body,
+    #about-us #map-card {
+        min-height: 362px;
+    }
+    /* Make all about-us card images the same height for consistency */
+    #about-us img {
+        max-height: 236px;
+    }
+    
+}
+
+/* xxl devices for (larger desktops, 1200px and up) */
+
+@media screen and (min-width: 1400px) {
+    /* Make all about-us cards the same height for consistency */
+    #about-us .card-body,
+    #about-us #map-card {
+        min-height: 338px;
+    }
+
+    #about-us img {
+        max-height: 276px;
+    }
+}
