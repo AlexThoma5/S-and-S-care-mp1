@@ -56,28 +56,41 @@ h2 {
 
 /* Header */
 
-header {
-    background: url(/assets/images/hero-image.jpeg) no-repeat center center / cover;
-    min-height: 30vh;
-}
 
 #hero h1,
-#hero p {
+#hero p, 
+#hero-services h1,
+#hero-services p{
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
 }
 
 /* Main */
 
-/* About us section */
+/* About us page */
 
-/* Services section */
+/* Header */
+
+#hero {
+    background: url(/assets/images/hero-image.jpeg) no-repeat center center / cover;
+    min-height: 30vh;
+}
+
+/* Services page */
+
+/* Header */
+
+#hero-services {
+    background: url(/assets/images/hero-image-2.webp) no-repeat center center / cover;
+    min-height: 30vh;
+}
 
 #services img {
     max-height: 25vh;
     object-fit: contain;
 }
 
+/* Removes unwanted bootstrap styles */
 #services .card {
     background: none;
     border: none;
