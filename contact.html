@@ -22,10 +22,14 @@
   <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <!-- Bootstrap navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg fixed-top"
+      data-bs-theme="dark"
+    >
       <div class="container">
         <a class="navbar-brand" href="index.html">
-            <img src="/assets/images/logo.png" alt="S&S Care logo" class="logo">
+          <img src="/assets/images/logo.png" alt="S&S Care logo" class="logo" />
         </a>
         <button
           class="navbar-toggler"
@@ -50,7 +54,9 @@
               <a class="nav-link" href="services.html">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -59,185 +65,221 @@
 
     <!-- Header hero image -->
     <header class="p-4" id="hero-contact">
-        <div class="container text-center">
-            <div class="py-5">
-                <h1 class="display-3 fw-bold">S&S Care</h1>
-                <p class="display-6 lead">
-                    We’re here to answer your questions and provide the support you need.        
-                </p>
-                <a href="#" class="btn btn-dark btn-lg">Get In Touch</a>
-            </div>
+      <div class="container text-center">
+        <div class="py-5">
+          <h1 class="display-3 fw-bold">S&S Care</h1>
+          <p class="display-6 lead">
+            We’re here to answer your questions and provide the support you
+            need.
+          </p>
+          <a href="#" class="btn btn-dark btn-lg">Get In Touch</a>
         </div>
-    </header>    
+      </div>
+    </header>
 
     <!-- Main element to hold key sections. Not apart of grid structure. -->
     <main>
-        <!-- Contact form section -->
-        <!-- Form taken from Boardwalk games and added additional inputs-->
-        <section class="container section">
-            <div class="row justify-content-center">
-                <div class="col-12 text-center">
-                    <h2 class="display-5">Conact Us</h2>
+      <!-- Contact form section -->
+      <!-- Form taken from Boardwalk games and added additional inputs-->
+      <section class="container section">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <h2 class="display-5">Contact Us</h2>
+          </div>
+          <div class="col-12 col-md-8">
+            <form action="success.html" method="GET">
+              <div class="row">
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    type="text"
+                    required
+                  />
                 </div>
-                <div class="col-12 col-md-8">
-                  <form action="success.html" method="GET">
-                    <div class="row">
-                      <div class="col-12 col-lg-6 mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input
-                          class="form-control"
-                          id="name"
-                          name="name"
-                          type="text"
-                          required
-                        >
-                      </div>
-                      <div class="col-12 col-lg-6 mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input
-                          class="form-control"
-                          id="email"
-                          name="email"
-                          type="email"
-                          required
-                        >
-                      </div>
-                      <div class="col-12 col-lg-6 mb-3">
-                        <label for="phone" class="form-label">Phone number</label>
-                        <input
-                          class="form-control"
-                          id="phone"
-                          name="phone"
-                          type="number"
-                          required
-                        >
-                      </div>
-                      <div class="col-12 col-lg-6 mb-3">
-                        <label for="contact-method" class="form-label">Preferred contact method</label>
-                        <select
-                          id="contact-method"
-                          class="form-select"
-                          name="contact-method"
-                          required
-                        >
-                          <option value="" selected>Select</option>
-                          <option value="email">Email</option>
-                          <option value="phone">Phone</option>
-                        </select>
-                      </div>
-                      <div class="col-12 col-lg-6 mb-3">
-                        <label for="contact-time" class="form-label">Best time to contact</label>
-                        <select
-                          id="contact-time"
-                          class="form-select"
-                          name="contact-time"
-                          required
-                        >
-                          <option value="" selected>Select</option>
-                          <option value="morning">Morning</option>
-                          <option value="afternoon">Afternoon</option>
-                          <option value="evening">Evening</option>
-                        </select>
-                      </div>
-                      <div class="col-12 col-lg-6 mb-3">
-                        <label for="contact-time" class="form-label">Who needs care?</label>
-                        <select
-                          id="contact-time"
-                          class="form-select"
-                          name="contact-time"
-                          required
-                        >
-                          <option value="" selected>Select</option>
-                          <option value="myself">Myself</option>
-                          <option value="family-member">Family member</option>
-                          <option value="Friend">Friend</option>
-                          <option value="Other">Other</option>
-                        </select>
-                      </div>
-                      <div class="col-12 mb-3">
-                        <label for="message" class="form-label">How can we help?</label>
-                        <textarea
-                          class="form-control"
-                          rows="6"
-                          id="message"
-                          name="message"
-                          required
-                        ></textarea>
-                      </div>
-                    </div>
-      
-                    <button type="submit" class="btn btn-dark mb-4">Submit</button>
-                  </form>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="phone" class="form-label">Phone number</label>
+                  <input
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    type="number"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="contact-method" class="form-label"
+                    >Preferred contact method</label
+                  >
+                  <select
+                    id="contact-method"
+                    class="form-select"
+                    name="contact-method"
+                    required
+                  >
+                    <option value="" selected>Select</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                  </select>
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="contact-time" class="form-label"
+                    >Best time to contact</label
+                  >
+                  <select
+                    id="contact-time"
+                    class="form-select"
+                    name="contact-time"
+                    required
+                  >
+                    <option value="" selected>Select</option>
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening">Evening</option>
+                  </select>
+                </div>
+                <div class="col-12 col-lg-6 mb-3">
+                  <label for="contact-time" class="form-label"
+                    >Who needs care?</label
+                  >
+                  <select
+                    id="contact-time"
+                    class="form-select"
+                    name="contact-time"
+                    required
+                  >
+                    <option value="" selected>Select</option>
+                    <option value="myself">Myself</option>
+                    <option value="family-member">Family member</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+                <div class="col-12 mb-3">
+                  <label for="message" class="form-label"
+                    >How can we help?</label
+                  >
+                  <textarea
+                    class="form-control"
+                    rows="6"
+                    id="message"
+                    name="message"
+                    required
+                  ></textarea>
                 </div>
               </div>
-        </section>
-              <!-- Contact details section -->
+
+              <button type="submit" class="btn btn-dark mb-4">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Contact details section -->
       <section class="container section" id="contact-info">
         <div class="row justify-content-center">
-            <div class="col-10">
-                <diV class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="card text-center">
-                            <img src="/assets/images/phone-call.png" class="card-img-top contact-icons" alt="Phone icon">
-                            <div class="card-body">
-                              <h3 class="card-title card-heading-color">Call Us</h3>
-                              <p class="card-text">07951643921</p>
-                            </div>
-                        </div>        
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card text-center">
-                            <img src="/assets/images/email.png" class="card-img-top contact-icons" alt="Email icon">
-                            <div class="card-body">
-                              <h3 class="card-title card-heading-color">Email Us</h3>
-                              <p class="card-text">help@snscare.com</p>
-                            </div>
-                        </div>        
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card text-center">
-                            <img src="/assets/images/location.png" class="card-img-top contact-icons" alt="Location pin icon">
-                            <div class="card-body">
-                              <h3 class="card-title card-heading-color">Location</h3>
-                              <p class="card-text">Swansea</p>
-                            </div>
-                        </div>        
-                    </div>
-                </diV>
+          <div class="col-10">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <img
+                    src="/assets/images/phone-call.png"
+                    class="card-img-top contact-icons"
+                    alt="Phone icon"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title card-heading-color">Call Us</h3>
+                    <p class="card-text">07951643921</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <img
+                    src="/assets/images/email.png"
+                    class="card-img-top contact-icons"
+                    alt="Email icon"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title card-heading-color">Email Us</h3>
+                    <p class="card-text">help@snscare.com</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <img
+                    src="/assets/images/location.png"
+                    class="card-img-top contact-icons"
+                    alt="Location pin icon"
+                  />
+                  <div class="card-body">
+                    <h3 class="card-title card-heading-color">Location</h3>
+                    <p class="card-text">Swansea</p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-      </section>    
+      </section>
     </main>
 
     <!-- Footer -->
     <footer class="mt-auto" id="footer">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-4 text-end">
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in new browser tab)">
-                        <i class="fa-brands fa-facebook-f"></i>    
-                    </a>    
-                </div>
-                <div class="col-4">
-                    <a href="https://www.tiktok.com/login" target="_blank" rel="noopener" aria-label="Visit our TikTok account (opens in new browser tab)">
-                        <i class="fa-brands fa-tiktok"></i>  
-                    </a>
-                </div>
-                <div class="col-4 text-start">  
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in new browser tab)">
-                        <i class="fa-brands fa-instagram"></i>   
-                    </a>
-                </div> 
-            </div>
-        </div>    
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-4 text-end">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page (opens in new browser tab)"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </div>
+          <div class="col-4">
+            <a
+              href="https://www.tiktok.com/login"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our TikTok account (opens in new browser tab)"
+            >
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+          <div class="col-4 text-start">
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page (opens in new browser tab)"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- Bootstrap JS -->
     <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous">
-    </script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Font Awesome kit -->
     <script
