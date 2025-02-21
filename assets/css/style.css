@@ -67,21 +67,36 @@ h2 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
 }
 
-/* Main */
-
 /* About us page */
 
 /* Header */
-
 #hero {
     background: url(/assets/images/hero-image.jpeg) no-repeat center center / cover;
     min-height: 30vh;
 }
 
+/* contact-info */
+#contact-info {
+    border-top: 2px solid #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+    margin-bottom: 2rem;
+}
+
+.contact-icons {
+    max-height: 8vh;
+    object-fit: contain;
+}
+
+#contact-info .card {
+    background: none;
+    border: none;
+}
+
+
+
 /* Services page */
 
 /* Header */
-
 #hero-services {
     background: url(/assets/images/hero-image-2.webp) no-repeat center center / cover;
     min-height: 30vh;
@@ -103,6 +118,7 @@ h2 {
     border-radius: 10px;
     margin-top: 2rem;
 }
+
 
 /* Contact page */
 
