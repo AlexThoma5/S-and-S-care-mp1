@@ -172,7 +172,7 @@ h2 {
 @media screen and (min-width: 768px) {
     /* Make top two about-us cards the same height for consistency */
     #about-us .card-body {
-        min-height: 385px;
+        min-height: 393px;
     }
     /* Remove excess space from map-card */
     #about-us #map-card {
@@ -185,7 +185,7 @@ h2 {
 @media screen and (min-width: 992px) {
     /* Make all about-us cards the same height for consistency */
     #about-us .card-body {
-        min-height: 312px;
+        min-height: 323px;
     }         
 }
 
@@ -195,7 +195,7 @@ h2 {
     /* Make all about-us cards the same height for consistency */
     #about-us .card-body,
     #about-us #map-card {
-        min-height: 362px;
+        min-height: 372px;
     }
     /* Make all about-us card images the same height for consistency */
     #about-us img {
@@ -210,7 +210,7 @@ h2 {
     /* Make all about-us cards the same height for consistency */
     #about-us .card-body,
     #about-us #map-card {
-        min-height: 338px;
+        min-height: 348px;
     }
 
     #about-us img {
