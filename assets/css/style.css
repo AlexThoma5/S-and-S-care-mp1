@@ -8,6 +8,7 @@
     --secondary-font: "Raleway", sans-serif;
     --primary-color: #2a2d3c;
     --hightlight-color: #1099d7;
+    --secondary-highlight-color: #C71585;
 }
 
 /* Global styles */
@@ -42,8 +43,29 @@ h2 {
     color: var(--hightlight-color);
 }
 
-/* Navbar */
+.custom-btn {
+    background-color: var(--secondary-highlight-color);
+    border-color: var(--secondary-highlight-color);
+    color: white;
+}
 
+.custom-btn:hover {
+    background-color: #B11176;
+    color: white;
+}
+
+.custom-btn-outline {
+    border: 2px solid var(--secondary-highlight-color);
+    color: var(--secondary-highlight-color);
+}
+
+.custom-btn-outline:hover {
+    background-color: var(--secondary-highlight-color);
+    border-color: var(--secondary-highlight-color);
+    color: white;
+}
+
+/* Navbar */
 #navbar {
     background-color: var(--primary-color);
     /* shadow code taken from love running project */
