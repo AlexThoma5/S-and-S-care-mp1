@@ -93,7 +93,7 @@ h2 {
 
 /* Header */
 #hero {
-    background: url(/assets/images/hero-image.jpeg) no-repeat center center / cover;
+    background: url(../images/hero-image.jpeg) no-repeat center center / cover;
     min-height: 30vh;
 }
 
@@ -120,7 +120,7 @@ h2 {
 
 /* Header */
 #hero-services {
-    background: url(/assets/images/hero-image-2.webp) no-repeat center center / cover;
+    background: url(../images/hero-image-2.webp) no-repeat center center / cover;
     min-height: 30vh;
 }
 
@@ -145,7 +145,7 @@ h2 {
 /* Contact page */
 
 #hero-contact {
-    background: url(/assets/images/hero-image-contact.webp) no-repeat center center / cover;
+    background: url(../images/hero-image-contact.webp) no-repeat center center / cover;
     min-height: 30vh;
 }
 
