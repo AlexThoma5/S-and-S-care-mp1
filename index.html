@@ -124,7 +124,9 @@
                   professional service.
                 </p>
                 <div class="text-center">
-                  <a href="services.html" class="btn custom-btn-outline btn-lg my-2"
+                  <a
+                    href="services.html"
+                    class="btn custom-btn-outline btn-lg my-2"
                     >More on services</a
                   >
                 </div>
@@ -253,5 +255,28 @@
       src="https://kit.fontawesome.com/e1ecb81146.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+      document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+          link.addEventListener("click", function (e) {
+            let section = document.querySelector(e.target.getAttribute("href"));
+            if (section) {
+              e.preventDefault(); // Prevent default anchor click behavior
+              let navbarHeight =
+                document.querySelector(".navbar-toggler").offsetHeight;
+              window.scroll({
+                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                behavior: "smooth",
+              });
+              document
+                .querySelector(".navbar-collapse")
+                .classList.remove("show"); // Collapse navbar
+            }
+          });
+        });
+    </script>
   </body>
 </html>
