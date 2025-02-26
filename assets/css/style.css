@@ -116,6 +116,13 @@ h2 {
     border: none;
 }
 
+#contact-info a {
+    text-decoration: none;
+}
+
+.contact-info-heading-color {
+    color: var(--secondary-highlight-color);
+}
 
 /* Services page */
 
