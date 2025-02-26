@@ -183,6 +183,11 @@ h2 {
     #about-us #map-card {
         min-height: auto;
     }
+        /* services page */
+    /* Make all services cards the same height */
+    #services .card-body {
+        min-height: 379px;
+    }         
 }
 
 /* large devices for (small laptops, 992px and up) */
@@ -191,6 +196,11 @@ h2 {
     /* Make all about-us cards the same height for consistency */
     #about-us .card-body {
         min-height: 323px;
+    }
+    /* services page */
+    /* Make all services cards the same height */
+    #services .card-body {
+        min-height: 324px;
     }         
 }
 
@@ -206,7 +216,11 @@ h2 {
     #about-us img {
         max-height: 236px;
     }
-    
+    /* services page */
+    /* Make all services cards the same height */
+    #services .card-body {
+        min-height: 479px;
+    }
 }
 
 /* xxl devices for (larger desktops, 1200px and up) */
