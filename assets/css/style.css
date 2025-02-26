@@ -94,6 +94,8 @@ h2 {
 /* Header */
 #hero {
     background: url(../images/hero-image.jpeg) no-repeat center center / cover;
+    /* Background color added so white text is readable if images dont load */
+    background-color: #3a3a3a;
     min-height: 30vh;
 }
 
@@ -115,12 +117,13 @@ h2 {
 }
 
 
-
 /* Services page */
 
 /* Header */
 #hero-services {
     background: url(../images/hero-image-2.webp) no-repeat center center / cover;
+    /* Background color added so white text is readable if images dont load */
+    background-color: #3a3a3a;
     min-height: 30vh;
 }
 
@@ -146,6 +149,8 @@ h2 {
 
 #hero-contact {
     background: url(../images/hero-image-contact.webp) no-repeat center center / cover;
+    /* Background color added so white text is readable if images dont load */
+    background-color: #3a3a3a;
     min-height: 30vh;
 }
 
