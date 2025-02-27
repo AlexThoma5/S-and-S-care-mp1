@@ -1,3 +1,13 @@
+# S&S Care
+![multi-device-mockups](docs/screenshots/multi-device-mockups.png)
+
+## Site Overview
+This project is a responsive website for S&S Care, a private care company based in South Wales. S&S Care specialises in care for the elderly and individuals with dementia and Alzheimer's.
+
+The site is designed to be user-friendly and accessible, helping families easily find the information they need about the services offered. It provides clear navigation, a simple layout, and an easy-to-use contact form. The site is designed with a minimal but professional aesthetic, focusing on simplicity and accessibility to provide a positive user experience.
+
+[View Live Site.](https://alexthoma5.github.io/S-and-S-care-mp1/index.html) Hosted on GitHub Pages.
+
 ## Table Of Contents:
 1. [Design & Planning](#design-&-planning)
     * [User Stories](#user-stories)
