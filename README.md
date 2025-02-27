@@ -88,10 +88,33 @@ The wireframes for this website were created using Balsamiq to establish a clear
     </details>
 
 ### Typography
-Explain font you've used for your project
+
+When selecting the fonts for my website, I considered readability, aesthetics and brand identity. Therefore I chose the following fonts:
+
+#### Primary Font - Roboto
+
+  - Used for all text, besides headings.
+  - Clean, modern, and highly legible, especially good for mobile views.
+
+
+  #### Secondary Font - Raleway
+
+  - Used for all headings across the site.
+  - Modern, simple and highly readable.
 
 ### Colour Scheme
-Screenshoot of the colour scheme for your project
+
+When deciding on a colour scheme, I wanted the continue the modern, professional and highly readable guidelines I previously set for myself. In doing so these are the colours I decided upon.
+
+![Colour Pallette](docs/screenshots/colors.png)
+
+I chose the colour "Raisin Black" as my primary colour. I thought it provided a professional look while complimenting the colours of the company logo in the navigation bar.
+
+The background color of my website is "Seasalt". This neutral colour contrasts very well with the primary colour and helps the white space around the text stand out more. For a clean, uncluttered look.
+
+The main highlight colour "Celestial Blue" is used for many subheadings across the site. This helps the headings be clear and visible to the user. This shade of blue is similar to uniforms worn by caregivers and the colours of the S&S Care logo. This helps create a feeling of familiarity for the user as they navigate the website.
+
+The final highlight colour is "Red Violet". This is used on all call-to-action buttons across the site. This vibrant colour stands out very well amongst the other colours of the site, directing the user's attention to the most important features of the site.
 
 ## Features:
 
