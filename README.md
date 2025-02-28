@@ -18,13 +18,11 @@ The site is designed to be user-friendly and accessible, helping families easily
    - [Typography](#typography)
    - [Colour Scheme](#colour-scheme)
 2. [Features](#features)
-
-   - [Site Wide](#Site-wide)
+   - [Site Wide Features](#Site-wide-features)
    - [Home Page](#Home-page)
    - [Services Page](#Services-page)
    - [Contact Page](#Contact-page)
    - [Success Page](#Success-page)
-
 3. [Technologies Used](#technologies-used)
 4. [Testing](#testing)
 5. [Bugs](#bugs)
