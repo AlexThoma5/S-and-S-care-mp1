@@ -254,11 +254,62 @@ The success page is reached upon a successful completion of the contact form, th
 
 ## Testing
 
-Important part of your README!!!
+Throughout the process of development Google Chrome Developer tools was consistenly used. Post deployment testing has been carried out on a variety of devices. Such as a Macbook, Ipad, Iphone and Samsung s23.
 
 ### Google's Lighthouse Performance
 
-Screenshots of certain pages and scores (mobile and desktop)
+1. Home Page
+
+    ![Home Page](docs/testing/home-lighthouse.png)
+
+2. Services Page
+
+    ![Services Page](docs/testing/services-lighthouse.png)
+
+3. Contact Page
+
+    ![Contact Page](docs/testing/contact-lighthouse.png)
+
+4. Success Page
+
+    ![Success Page](docs/testing/success-lighthouse.png)
+
+5. 404 Page
+
+    ![404 Page](docs/testing/404-lighthouse.png)
+    
+
+### Google Lighthouse Performance On Mobile
+
+<details><Summary>Home Page</summary>
+
+![Home Page Mobile](docs/testing/home-lighthouse-mobile.png)
+
+</details>
+
+<details><Summary>Services Page</summary>
+
+![Services Page Mobile](docs/testing/services-lighthouse-mobile.png)
+
+</details>
+
+<details><Summary>Contact Page</summary>
+
+![Contact Page Mobile](docs/testing/contact-lighthouse-mobile.png)
+
+</details>
+
+<details><Summary>Success Page</summary>
+
+![Success Page Mobile](docs/testing/success-lighthouse-mobile.png)
+
+</details>
+
+<details><Summary>404 Page</summary>
+
+![404 Page Mobile](docs/testing/404-lighthouse-mobile.png)
+
+</details>
 
 ### Browser Compatibility
 
