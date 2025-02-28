@@ -321,7 +321,32 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 ### Code Validation
 
-Validate your code HTML, CSS (all pages/files need to be validated!!!), display screenshots
+#### W3C Markup Validation Service
+
+1. Home Page validation:
+    
+    - ![Home Page Validation](docs/testing/home-page-validation.png)
+
+2. Services Page Validation:
+    
+    - ![Services Page Validation](docs/testing/service-page-validation.png)
+
+3. Contact Page Validation: 
+
+    - ![Contact Page Validation](docs/testing/contact-page-validation.png)
+
+4. Success Page Validation:
+    
+    - ![Success Page Validation](docs/testing/success-page-validation.png)
+
+5. 404 Page Validation:
+    
+    - ![404 Page Validation](docs/testing/404-page-validation.png)
+
+
+#### W3C CSS Validation Service
+
+![CSS Validation Screenshot](docs/testing/css-validation.png)
 
 ### Manual Testing user stories or/and features
 
