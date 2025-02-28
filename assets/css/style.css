@@ -26,8 +26,7 @@ h3 {
     color: var(--primary-color);
 }
 
-h2 {
-    font-weight: bold;
+.section-heading {
     text-transform: uppercase;
     margin-bottom: 2rem;
     text-decoration: 2px underline #c0c0c0;
@@ -161,6 +160,13 @@ h2 {
     min-height: 30vh;
 }
 
+/* Success page / 404 page */
+
+.user-message {
+    font-family: var(--primary-font);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
 
 /* Footer */
 
