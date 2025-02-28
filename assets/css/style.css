@@ -29,7 +29,8 @@ h3 {
 .section-heading {
     text-transform: uppercase;
     margin-bottom: 2rem;
-    text-decoration: 2px underline #c0c0c0;
+    -webkit-text-decoration: 2px underline #c0c0c0;
+            text-decoration: 2px underline #c0c0c0;
     text-underline-offset: .5rem;
 }
 
@@ -44,7 +45,6 @@ h3 {
 
 .custom-btn {
     background-color: var(--secondary-highlight-color);
-    border-color: var(--secondary-highlight-color);
     color: white;
 }
 
@@ -60,7 +60,6 @@ h3 {
 
 .custom-btn-outline:hover {
     background-color: var(--secondary-highlight-color);
-    border-color: var(--secondary-highlight-color);
     color: white;
 }
 
@@ -68,7 +67,8 @@ h3 {
 #navbar {
     background-color: var(--primary-color);
     /* shadow code taken from love running project */
-    box-shadow: 0 2px 2px #3a3a3a;
+    -webkit-box-shadow: 0 2px 2px #3a3a3a;
+            box-shadow: 0 2px 2px #3a3a3a;
 }
 
 #navbar .logo {
@@ -107,7 +107,8 @@ h3 {
 
 .contact-icons {
     max-height: 8vh;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 
 #contact-info .card {
@@ -135,7 +136,8 @@ h3 {
 
 #services img {
     max-height: 25vh;
-    object-fit: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
 }
 
 /* Removes unwanted bootstrap styles */
