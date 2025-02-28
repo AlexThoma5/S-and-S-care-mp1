@@ -254,8 +254,6 @@ The success page is reached upon a successful completion of the contact form, th
 
 ## Testing
 
-Throughout the process of development Google Chrome Developer tools was consistenly used. Post deployment testing has been carried out on a variety of devices. Such as a Macbook, Ipad, Iphone and Samsung s23.
-
 ### Google's Lighthouse Performance
 
 1. Home Page
@@ -313,7 +311,11 @@ Throughout the process of development Google Chrome Developer tools was consiste
 
 ### Browser Compatibility
 
-Check compatability with different browsers
+#### Browsers Tested
+    - Chrome
+    - Safari
+    - Firefox
+    - Microsoft Edge
 
 ### Responsiveness
 
@@ -348,14 +350,19 @@ Screenshots of the responsivness, pick few devices (from 320px top 1200px)
 
 ![CSS Validation Screenshot](docs/testing/css-validation.png)
 
-### Manual Testing user stories or/and features
+### Manual Testing user stories
 
-Test all your user stories, you an create table
-User Story | Test | Pass
---- | --- | :---:
-paste here you user story | what is visible to the user and what action they should perform | &check;
+User Story | Test | Pass | Screenshot
+--- | --- | --- |:---:
+As a new site user, I need easy navigation and a user-friendly design, including a responsive layout for my device, so I can find information quickly and efficiently without frustration. | The site features a simple navbar and a fully responsive design | &check; | <details>![Navbar](docs/screenshots/navbar-full.png)</details>
+As an elderly person, I want to be able to easily find information about the types of care services provided, so I can understand if the company meets my needs. | The site features a services page that gives the user all the information about the care services. The services page is easily found via the navbar or (CTA) button on the home page | &check; | <details>![Services Page](docs/screenshots/services-page.png)</details>
+As an elderly client, I want a straightforward way to request a callback from the care team, so I can ask questions or get more information at a convenient time. | The site features an easy-to-use contact form, that the user can reach via the navbar or the (CTA) buttons in the hero images. | &check; | <details>![Contact Page](docs/screenshots/contact-us-page.png)</details>
+As an elderly person, I want to easily find contact information like phone numbers and email addresses, so I can quickly reach out for assistance when needed. | At the bottom of every page there is a contact-info section, providing the user with clickable icons that open up the phone application, or email application. | &check; | <details>![Contact Information Section](docs/screenshots/contact-info-full.png)</details>
+As a family member, I want to see pictures of the caregivers in action, so I can visualise the care environment and interactions. | The three main pages of site contain a hero image of a caregiver and client. | &check; | <details>![Hero Image of Caretaker](docs/screenshots/services-hero.png)</details>
+As a new customer, I want to know what locations these services are offered in, so I don’t waste time enquiring if it’s not in my area. | The home page features an image of a map showing users where they operate. The contact information section on every page also has a location icon with the location listed below. | &check; | <details>![Map Card on Home Page](docs/testing/map-user-story.png)</details>
+As a family member, I want to be able to see testimonials from other families so that I trust the care provided for my loved one. | The testimonial section could be implented on the homepage with atleast four testimonials | &cross; | 
+As an elderly client, I want to see what kinds of social activities or companionship services are available, so I can stay engaged and avoid feeling lonely. | The website could feature a detailed social activities section that lists all the activities that will be available to potential clients | &cross; |
 
-- and attach screenshot
 
 ## Bugs
 
