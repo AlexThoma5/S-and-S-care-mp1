@@ -104,7 +104,7 @@ When selecting the fonts for my website, I considered readability, aesthetics an
 
 ### Colour Scheme
 
-When deciding on a colour scheme, I wanted the continue the modern, professional and highly readable guidelines I previously set for myself. In doing so these are the colours I decided upon.
+When deciding on a colour scheme, I wanted to continue the modern, professional and highly readable guidelines I previously set for myself. In doing so these are the colours I decided upon.
 
 ![Colour Pallette](docs/screenshots/colors.png)
 
@@ -118,11 +118,119 @@ The final highlight colour is "Red Violet". This is used on all call-to-action b
 
 ## Features:
 
-Explain your features on the website,(navigation, pages, links, forms.....)
+### Site Wide Features:
 
-### Navigation
+#### Navigation
 
-### Footer
+The website uses Bootstrap's fully responsive navbar component. This ensures the navbar adjusts seamlessly across all screen sizes, from desktop to mobile. The navbar has been fully customised using a custom logo, a clean and modern font and my primary colour "Raisin Black". The custom logo also links directly to the home page, this is common practice in the industry and provides a sense of familiarity to the user.
+
+*Full sized navigation bar:*
+
+![Full Navbar](docs/screenshots/navbar-full.png)
+- Contains links to Home page, About us section, Services page and Contact page.
+- This allows users to easily navigate between pages and access the information they desire.
+
+*Collapsed Navbar:*
+
+![Collapsed Navbar](docs/screenshots/navbar-small.png)
+- Contains a collapsible menu for smaller screens, enhancing usability on mobile devices.
+- Clean design that helps keep the screen uncluttered, enabling a better user experience.
+
+#### Contact-info Section
+
+The website features a small section on each page dediacted to contact information.
+
+- Call us card is interactive, clicking on it will open up the phone application. Allowing the user to easily contact the company, with a simple click of the button.
+- Email us card is also interactive, clicking on it will open up an email window for the user to email us directly.
+
+*Contact Information section on large screens*
+
+![Contact-info section on large screens](docs/screenshots/contact-info-full.png)
+- The Contact Information section is arranged in a row, sitting at the bottom of each page above the footer.
+
+*Contact Information section on mobile devices*
+
+![Contact-info section on mobile](docs/screenshots/contact-info-mobile.png)
+- The Contact Information section collapses down into a column to give each icon more room and keep the layout clean.
+
+#### Footer
+
+I have chosen to go with a basic responsive footer that provides links to social media pages that open in new tabs. This will allow the user to easily locate our other social platforms where they can interact with the business further. 
+
+![Footer](docs/screenshots/footer.png)
+- Contains social media links that open in a new tab. Icons are also accessible to visually impaired users using a screen reader, by the use of aria labels. 
+- Styled to match the header to keep the website aesthetic professional 
+
+#### Favicon
+
+The website has a site wide favicon with the S&S Care logo. This provides an image in the browser tabs header to allow the user to easily identify the website if they have multiple tabs open.
+
+![Favicon](docs/screenshots/favicon.png)
+
+#### 404 Page
+
+A 404 page is implemented into the website and will display if the user navigates a broken link.
+- The 404 page features an error message which lets the user know that they have navigated to a broken link.
+- The 404 page features a redirect button which returns the user to the home page. 
+
+![404 Page](docs/screenshots/404-page.png)
+
+### Home Page
+
+#### Hero Header
+
+The home page features a hero image header, this helps to show the user what the website is about immediately and provides a visually appealing background to the header.
+
+- The S&S Care heading is inside the header with a short sentence summarising their work. This helps the user instantly recognise the type of website they are on while also promoting the company's qualities.
+- The header features the call to action (CTA) button, which provides the user with a direct route to the contact page. The (CTA) button is also highlighted in "VioletRed", this draws the attention of the user as it stands out. 
+
+![Home Page](docs/screenshots/home-page-hero.png)
+
+#### About Us Section
+
+The About Us section within the homepage is there to provide the user with a summary of 'Who we are, what we offer and where we operate'. This breaks down the information into readable chunks for the user, while still providing valuable information. 
+
+- Three cards providing the essential who, what and where of the business
+- A call to action button on the services card, that directs the user to the services page if they want a more in-depth look at the services provided.
+
+![About Us Section](docs/screenshots/about-us-section.png)
+
+### Services Page
+
+The services page also features a header hero image, this is done to keep consistency across the website and provide different visually appealing images.
+
+- The header features the call to action (CTA) button, which provides the user with a direct route to the contact page. The (CTA) button is also highlighted in "VioletRed", this draws the attention of the user as it stands out. 
+
+![Home Page](docs/screenshots/services-hero.png)
+
+#### Services Page Header
+
+#### Services section
+
+The main section of the services page features responsive cards that show the user the four main services the company provides.
+
+- Each service card has a visually appealing image that gives the user a visual example of the service, leaving the user with a positive experience.
+- Each service card has four bullet points that offer examples of each service, so the user has an easier task of seeing whether we provide the service that they want.
+
+![](docs/screenshots/services-page.png)
+
+### Contact Page
+
+The contact page features a contact form that will allow users to contact S&S Care to enquire about the care services.
+
+- The correct form validation is used preventing users from submitting it without the valid information.
+- Upon successful submission the user will be directed to success.html displaying a success message.
+
+![Contact Page](docs/screenshots/contact-us-page.png)
+
+### Success Page
+
+The success page is reached upon a successful completion of the contact form, this gives the user positive feedback and prevents users from submitting multiple forms.
+
+- The success message provided thanks the user and tells them of their successful submission.
+- A redirect button is also provided so the user can easily navigate back to the homepage.
+
+![](docs/screenshots/success-page.png)
 
 ### Other features
 
