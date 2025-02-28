@@ -19,10 +19,11 @@ The site is designed to be user-friendly and accessible, helping families easily
    - [Colour Scheme](#colour-scheme)
 2. [Features](#features)
 
-   - [Navigation](#Navigation)
-   - [Footer](#Footer)
-   - [Home page](#Home-page)
-   - [Other features](#Other-features)
+   - [Site Wide](#Site-wide)
+   - [Home Page](#Home-page)
+   - [Services Page](#Services-page)
+   - [Contact Page](#Contact-page)
+   - [Success Page](#Success-page)
 
 3. [Technologies Used](#technologies-used)
 4. [Testing](#testing)
@@ -231,8 +232,6 @@ The success page is reached upon a successful completion of the contact form, th
 - A redirect button is also provided so the user can easily navigate back to the homepage.
 
 ![](docs/screenshots/success-page.png)
-
-### Other features
 
 ## Technologies Used
 
