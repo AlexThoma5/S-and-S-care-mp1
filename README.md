@@ -12,7 +12,7 @@ The site is designed to be user-friendly and accessible, helping families easily
 
 ## Table Of Contents:
 
-1. [Design & Planning](#design-&-planning)
+1. [Design & Planning](#design--planning)
    - [User Stories](#user-stories)
    - [Wireframes](#wireframes)
    - [Typography](#typography)
@@ -344,7 +344,7 @@ All tests were successfully completed, ensuring a smooth user experience across 
 
 Examples of responsiveness are created by using Google's Dev Tools to simulate devices of various sizes.
 
-**Home Page**
+1. **Home Page**
 
 <details><summary>Click to reveal images</summary>
 
@@ -362,7 +362,7 @@ Examples of responsiveness are created by using Google's Dev Tools to simulate d
 
 </details>
 
-**Services Page**
+2. **Services Page**
 
 <details><summary>Click to reveal images</summary>
 
@@ -424,7 +424,17 @@ As a new customer, I want to know what locations these services are offered in, 
 
 ## Bugs
 
-List of bugs and how did you fix them
+### Fixed bugs
+
+1. When testing my landing page using Google Lighthouse, I encountered a bug where my map image aspect ratio was slightly off on screens larger than 1200px. To fix this I applied "object-fit: cover" and it solved my issue by ensuring the image doesn't get stretched.
+
+2. When validating my CSS I received multiple warnings about a 'Trailing slash', these appeared due to formatting my code using 'Prettier'. To combat this I manually removed all the trailing slashes.
+
+3. I had an issue where my sticky navigation bar was covering section headings when clicking internal links. I initially tried to fix this with 'scroll-margin-top:...', but found that this CSS property did not function with Google Chrome. So instead I opted to use 'padding-top:..' to solve my issue.
+
+### Remaining bugs
+
+1. On Safari, the text-decoration on my headings disappears, Leaving the headings without the intended underline. Only on this specific browser did I encounter this issue.
 
 ## Deployment
 
