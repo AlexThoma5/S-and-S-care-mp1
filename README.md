@@ -246,20 +246,23 @@ The success page is reached upon a successful completion of the contact form, th
 * CSS
     * The Website was styled using custom CSS in an external file.
 * Visual Studio Code
-    * The website was developed using Visual Studio Code IDE
+    * The website was developed using Visual Studio Code IDE.
 * GitHub
     * Source code is hosted on GitHub and delpoyed using Git Pages.
 * Git 
-    * Used to commit and push code during the development phase of the Website
+    * Used to commit and push code during the development phase of the Website.
 * Font Awesome
     * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
 * Tinyjpg
-    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website.
 * Favicon.io
     * favicon files were created at https://favicon.io/favicon-converter/ 
 * balsamiq
     * wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
-
+* Chat GPT
+    * Chat GPT was used to help create ideas for content, such as the text information in the About Us section.
+*   Grammarly
+    * Grammarly was used to spell check and catch mistakes in the website and README.md.
 ## Testing
 
 ### Google's Lighthouse Performance
