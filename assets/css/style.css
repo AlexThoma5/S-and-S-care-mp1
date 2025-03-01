@@ -30,7 +30,7 @@ h3 {
     text-transform: uppercase;
     margin-bottom: 2rem;
     -webkit-text-decoration: 2px underline #c0c0c0;
-            text-decoration: 2px underline #c0c0c0;
+    text-decoration: 2px underline #c0c0c0;
     text-underline-offset: .5rem;
 }
 
@@ -68,7 +68,7 @@ h3 {
     background-color: var(--primary-color);
     /* shadow code taken from love running project */
     -webkit-box-shadow: 0 2px 2px #3a3a3a;
-            box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 #navbar .logo {
@@ -79,11 +79,11 @@ h3 {
 
 
 #hero h1,
-#hero p, 
+#hero p,
 #hero-services h1,
 #hero-services p,
 #hero-contact h1,
-#hero-contact p{
+#hero-contact p {
     color: white;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .8);
 }
@@ -108,7 +108,7 @@ h3 {
 .contact-icons {
     max-height: 8vh;
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
 }
 
 #contact-info .card {
@@ -137,7 +137,7 @@ h3 {
 #services img {
     max-height: 25vh;
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
 }
 
 /* Removes unwanted bootstrap styles */
@@ -190,47 +190,58 @@ h3 {
 /* Medium devices for (tablets 768px and up) */
 
 @media screen and (min-width: 768px) {
+
     /* Make top two about-us cards the same height for consistency */
     #about-us .card-body {
         min-height: 393px;
     }
+
     /* Remove excess space from map-card */
     #about-us #map-card {
         min-height: auto;
     }
-        /* services page */
+
+    /* services page */
     /* Make all services cards the same height */
     #services .card-body {
         min-height: 379px;
-    }         
+    }
 }
 
 /* large devices for (small laptops, 992px and up) */
 
 @media screen and (min-width: 992px) {
+
     /* Make all about-us cards the same height for consistency */
     #about-us .card-body {
         min-height: 323px;
     }
+
     /* services page */
     /* Make all services cards the same height */
     #services .card-body {
         min-height: 324px;
-    }         
+    }
 }
 
 /* xl devices for (large desktops, 1200px and up) */
 
 @media screen and (min-width: 1200px) {
+
     /* Make all about-us cards the same height for consistency */
     #about-us .card-body,
     #about-us #map-card {
         min-height: 372px;
     }
+
     /* Make all about-us card images the same height for consistency */
     #about-us img {
         max-height: 236px;
+        /* Fix Google lighthouse error: aspect ratio issue with map image */
+        -o-object-fit: cover;
+        object-fit: cover;
     }
+
     /* services page */
     /* Make all services cards the same height */
     #services .card-body {
@@ -241,6 +252,7 @@ h3 {
 /* xxl devices for (larger desktops, 1200px and up) */
 
 @media screen and (min-width: 1400px) {
+
     /* Make all about-us cards the same height for consistency */
     #about-us .card-body,
     #about-us #map-card {
