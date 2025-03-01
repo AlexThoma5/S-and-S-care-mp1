@@ -27,6 +27,8 @@ h3 {
 }
 
 .section-heading {
+    /* Padding-top added to stop fixed navbar covering heading */
+    padding-top: 1rem;
     text-transform: uppercase;
     margin-bottom: 2rem;
     -webkit-text-decoration: 2px underline #c0c0c0;
@@ -35,7 +37,7 @@ h3 {
 }
 
 .section {
-    padding-top: 2rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
 }
 
