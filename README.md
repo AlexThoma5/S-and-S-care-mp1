@@ -231,6 +231,14 @@ The success page is reached upon a successful completion of the contact form, th
 
 ![](docs/screenshots/success-page.png)
 
+### Future enhancements
+
+1. If I had more time, I would have liked to implement a testimonial section featuring at least four testimonials. This would build trust with the user and offer more reassurance for potential clients.
+
+2. In a future release, I'd like to implement an activities page that can display all the potential activities clients get involved in. This way the potential clients can get a further glimpse into what S&S Care offers.
+
+3. In a future release, I'd want to implement a feature that allows the contact forms to be emailed to 'S&S Care' upon successful completion of the form. 
+
 ## Technologies Used
 
 * HTML
@@ -334,7 +342,44 @@ All tests were successfully completed, ensuring a smooth user experience across 
 
 ### Responsiveness
 
-Screenshots of the responsivness, pick few devices (from 320px top 1200px)
+Examples of responsiveness are created by using Google's Dev Tools to simulate devices of various sizes.
+
+**Home Page**
+
+<details><summary>Click to reveal images</summary>
+
+- Iphone 14 Pro Max
+
+     ![Home Page Mobile](docs/testing/home-page-iphone.png)
+
+- Ipad
+
+     ![Home Page Tablet](docs/testing/home-page-ipad.png)
+
+- Desktop 1200px
+
+    ![Home Page Desktop](docs/testing/home-page-desktop.png)
+
+</details>
+
+**Services Page**
+
+<details><summary>Click to reveal images</summary>
+
+- Iphone 14 Pro Max
+
+     ![Service Page Mobile](docs/testing/services-page-iphone.png)
+
+- Ipad
+
+     ![Service Page Tablet](docs/testing/services-page-ipad.png)
+
+- Desktop 1200px
+
+    ![Service Page Desktop](docs/testing/services-page-desktop.png)
+
+</details>
+
 
 ### Code Validation
 
@@ -420,11 +465,30 @@ The project will now of been cloned on your local machine for use.
 
 ## Credits
 
-List of used resources for your website (text, images, snippets of code, projects....)
+- During the creation of this project I referred back to the walk-through projects Boardwalk Games and Love Running, for inspiration and also for guidance.
+I credited any re-used sections from the projects in the source code via comments.
 
-- Code & Text Content
+### Content 
 
-- Media
+#### Site Wide
 
-- Acknowledgment
-  - acknowledgment to mentors, peers, tutors, friends, family, facilitator (who ever contributed and helped with the project)
+- Icons were borrowed from [Font Awesome](https://fontawesome.com)
+- All fonts imported from - [Google Fonts](https://fonts.google.com/)
+
+#### Home Page
+
+- Home Page hero image by [Art_Photo](https://stock.adobe.com/uk/images/portrait-of-smiling-caring-asian-nurse-service-help-support-discussing-and-consulting-taking-care-caring-caregiver-with-senior-elderly-asian-woman-at-home-visit-senior-retirement-home-care-concept/672645639?prev_url=detail)
+- 'Who we are' card image by [Unai](https://stock.adobe.com/uk/images/nurses-and-caregivers-standing-outside-the-nursing-home/1044031035?prev_url=detail)
+- 'What we offer' card image by [Malambo](https://stock.adobe.com/uk/images/nurse-old-woman-and-dressing-in-bedroom-support-and-trust-with-rehabilitation-recovery-and-healing-house-medical-and-professional-with-patient-caregiver-and-health-with-assistance-with-clothes/978613717?prev_url=detail)
+#### Service Page
+
+- Services Page hero image by [Chanelle Malambo](https://stock.adobe.com/uk/images/senior-woman-nurse-and-wheelchair-in-life-insurance-healthcare-support-or-garden-at-nursing-home-happy-elderly-female-and-caregiver-for-person-with-a-disability-health-or-retirement-in-nature/602840191?prev_url=detail)
+- Icon Pack: Daycare for Eldery by [Freepik](https://www.flaticon.com/packs/daycare-for-eldery-3)
+
+#### Contact Page
+
+- Contact Page hero image by [2April](https://stock.adobe.com/uk/images/senior-woman-in-wheelchair-caregiver-holding-hands-healthcare-elderly-care-compassion-support/999810828?prev_url=detail)
+
+### Acknowledgment
+
+  - I would like to thank my mentor Gareth for all his guidance and advice throughout the project.
