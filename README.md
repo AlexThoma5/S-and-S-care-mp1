@@ -279,43 +279,58 @@ The success page is reached upon a successful completion of the contact form, th
 
 ### Google Lighthouse Performance On Mobile
 
-<details><Summary>Home Page</summary>
+<details><Summary>Click to show screenshots</summary>
 
-![Home Page Mobile](docs/testing/home-lighthouse-mobile.png)
+1. Home Page - Mobile
 
-</details>
+    ![Home Page Mobile](docs/testing/home-lighthouse-mobile.png)
 
-<details><Summary>Services Page</summary>
+2. Services Page - Mobile
 
-![Services Page Mobile](docs/testing/services-lighthouse-mobile.png)
+    ![Services Page Mobile](docs/testing/services-lighthouse-mobile.png)
 
-</details>
+(Although the Google Lighthouse report says the 'Accessibility' score dropped on the Home and Services page, I tested these pages using the WAVE tool and it showed no errors)
 
-<details><Summary>Contact Page</summary>
+**WAVE Test:**
 
-![Contact Page Mobile](docs/testing/contact-lighthouse-mobile.png)
+![WAVE Test Screenshot](docs/testing/wave-tool.png)
 
-</details>
+3. Contact Page - Mobile
 
-<details><Summary>Success Page</summary>
+    ![Contact Page Mobile](docs/testing/contact-lighthouse-mobile.png)
 
-![Success Page Mobile](docs/testing/success-lighthouse-mobile.png)
+4. Success Page - Mobile
 
-</details>
+    ![Success Page Mobile](docs/testing/success-lighthouse-mobile.png)
 
-<details><Summary>404 Page</summary>
+5. 404 Page - Mobile
 
-![404 Page Mobile](docs/testing/404-lighthouse-mobile.png)
+    ![404 Page Mobile](docs/testing/404-lighthouse-mobile.png)
 
 </details>
 
 ### Browser Compatibility
 
-#### Browsers Tested
-    - Chrome
-    - Safari
-    - Firefox
-    - Microsoft Edge
+#### Browsers tested
+
+- Google Chrome
+- Microsoft Edge
+- Firefox
+- Safari
+
+#### Manual Testing Results
+
+| **Feature Tested**                           | **Expected Outcome**                                                  | **Test Result** |
+| -------------------------------------------- | --------------------------------------------------------------------- | --------------- |
+| Navigation Links                             | All links direct to correct pages                                     |  Pass       |
+| Forms                                        | Form validation work and forms can be submitted                       |  Pass       |
+| Success Page                                 | User gets sent to Success page upon successful form completion        |  Pass       |
+| Buttons                                      | Buttons respond and perform actions                                   |  Pass       |
+| External Links (Footer icons)                | Links open in a new tab as expected                                   |  Pass       |
+| Mobile Responsiveness                        | Layout adapts properly on all devices                                 |  Pass       |
+| 404 Page                                     | User is directed to 404 error page when navigating a broken link      |  Pass       |
+
+All tests were successfully completed, ensuring a smooth user experience across different platforms.
 
 ### Responsiveness
 
@@ -360,8 +375,6 @@ As an elderly client, I want a straightforward way to request a callback from th
 As an elderly person, I want to easily find contact information like phone numbers and email addresses, so I can quickly reach out for assistance when needed. | At the bottom of every page there is a contact-info section, providing the user with clickable icons that open up the phone application, or email application. | &check; | <details>![Contact Information Section](docs/screenshots/contact-info-full.png)</details>
 As a family member, I want to see pictures of the caregivers in action, so I can visualise the care environment and interactions. | The three main pages of site contain a hero image of a caregiver and client. | &check; | <details>![Hero Image of Caretaker](docs/screenshots/services-hero.png)</details>
 As a new customer, I want to know what locations these services are offered in, so I don’t waste time enquiring if it’s not in my area. | The home page features an image of a map showing users where they operate. The contact information section on every page also has a location icon with the location listed below. | &check; | <details>![Map Card on Home Page](docs/testing/map-user-story.png)</details>
-As a family member, I want to be able to see testimonials from other families so that I trust the care provided for my loved one. | The testimonial section could be implented on the homepage with atleast four testimonials | &cross; | 
-As an elderly client, I want to see what kinds of social activities or companionship services are available, so I can stay engaged and avoid feeling lonely. | The website could feature a detailed social activities section that lists all the activities that will be available to potential clients | &cross; |
 
 
 ## Bugs
